@@ -1,0 +1,75 @@
+site_name: QRL Hub
+site_description: Production-oriented documentation for the Quantum Resistant Ledger (QRL)
+site_url: https://gorusys.github.io/grl-hub/
+repo_url: https://github.com/gorusys/grl-hub
+repo_name: grl-hub
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  palette:
+    - scheme: slate
+      primary: blue grey
+      accent: cyan
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+    - scheme: default
+      primary: blue grey
+      accent: cyan
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.instant
+    - content.code.copy
+    - toc.follow
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - toc:
+      permalink: true
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.tabbed:
+      alternate_style: true
+
+nav:
+  - Home: index.md
+  - Getting Started: getting-started.md
+  - Protocol & Cryptography:
+      - QRL Overview: qrl-overview.md
+      - Network & Consensus: network-and-consensus.md
+      - Units (Quanta & Shor): units-and-fees.md
+      - Addresses & Descriptors: addresses-and-descriptors.md
+      - XMSS, OTS & Merkle Trees: xmss.md
+      - Post-Quantum Context: post-quantum.md
+  - Using QRL:
+      - Wallet Ecosystem: wallet-ecosystem.md
+      - Wallet Operations: wallet-guide.md
+      - Node Installation & Config: node-setup.md
+      - Mining (RandomX): mining.md
+  - On-Chain Features:
+      - Tokens: feature-tokens.md
+      - Messages & Notarization: feature-messages.md
+      - Multisignature: feature-multisig.md
+      - Slave Keys (Hypertrees): feature-slave-keys.md
+      - Lattice Keys (PQ Crypto): feature-lattice-keys.md
+  - Building & APIs:
+      - Developer Guide: developer-guide.md
+      - Private Networks & Docker: developer-testing.md
+      - API Reference: api-reference.md
+  - Governance & Evolution:
+      - QIPs & Governance: governance-qips.md
+      - Zond (PoS / EVM testnet): zond.md
+  - Tutorials:
+      - First Transaction: tutorials/first-transaction.md
+      - Running a Node: tutorials/running-node.md
+  - Reference Catalog: reference-catalog.md
