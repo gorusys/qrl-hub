@@ -1,8 +1,8 @@
 site_name: QRL Hub
 site_description: Production-oriented documentation for the Quantum Resistant Ledger (QRL)
-site_url: https://gorusys.github.io/grl-hub/
-repo_url: https://github.com/gorusys/grl-hub
-repo_name: grl-hub
+site_url: https://gorusys.github.io/qrl-hub/
+repo_url: https://github.com/gorusys/qrl-hub
+repo_name: qrl-hub
 edit_uri: edit/main/docs/
 
 theme:
