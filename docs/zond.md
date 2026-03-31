@@ -12,7 +12,7 @@ Use that entry point for current wallet/explorer endpoints, faucet rules, and de
 
 ## Relationship to this hub
 
-Most pages in **QRL Hub** describe the **legacy/mainline QRL ledger** (XMSS signatures, RandomX PoW, `qrl` node). Zond introduces a different execution and consensus model (PoS + EVM). When integrating, **confirm which network** your addresses and transactions target.
+Most pages in this **handbook** describe the **legacy/mainline QRL ledger** (XMSS signatures, RandomX PoW, `qrl` node). Zond introduces a different execution and consensus model (PoS + EVM). When integrating, **confirm which network** your addresses and transactions target.
 
 ## Where to watch for updates
 

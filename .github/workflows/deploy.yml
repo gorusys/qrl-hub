@@ -1,4 +1,4 @@
-name: Deploy MkDocs to GitHub Pages
+name: Deploy QRL Technical Handbook (MkDocs) to GitHub Pages
 
 on:
   push:

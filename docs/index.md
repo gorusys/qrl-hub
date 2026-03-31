@@ -1,6 +1,6 @@
-# QRL Hub
+# QRL Technical Handbook
 
-**QRL Hub** documents the [Quantum Resistant Ledger (QRL)](https://theqrl.org/): a public blockchain that uses **XMSS** (hash-based, stateful signatures) for transaction authentication, combined with **Proof-of-Work** using the **RandomX** algorithm on the live network.
+The **QRL Technical Handbook** is a structured, production-oriented reference for the [Quantum Resistant Ledger (QRL)](https://theqrl.org/): a public blockchain that uses **XMSS** (hash-based, stateful signatures) for transaction authentication, combined with **Proof-of-Work** using the **RandomX** algorithm on the live network.
 
 ## What QRL is
 
@@ -26,4 +26,4 @@
 6. **Reference Catalog** — canonical links to official docs, repositories, protobuf definitions, and standards.
 
 !!! tip
-    Primary sources are [QRL Docs](https://docs.theqrl.org/) and the [theQRL GitHub organization](https://github.com/theQRL). This hub summarizes and cross-links them for operators and developers; always verify behavior against the node and tooling version you run in production.
+    Primary sources are [QRL Docs](https://docs.theqrl.org/) and the [theQRL GitHub organization](https://github.com/theQRL). This handbook summarizes and cross-links them for operators and developers; always verify behavior against the node and tooling version you run in production.

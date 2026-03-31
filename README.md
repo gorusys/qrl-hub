@@ -1,6 +1,9 @@
-# QRL Hub
+# QRL Technical Handbook
 
-Documentation for the [Quantum Resistant Ledger (QRL)](https://theqrl.org/): protocol (XMSS, OTS, addresses), node operations, mining (RandomX), wallets, on-chain features (tokens, messages, multisig, slaves, lattice keys), APIs, QIPs, and Zond.
+MkDocs site: operator and developer documentation for the [Quantum Resistant Ledger (QRL)](https://theqrl.org/): protocol (XMSS, OTS, addresses), node operations, mining (RandomX), wallets, on-chain features (tokens, messages, multisig, slaves, lattice keys), APIs, QIPs, and Zond.
+
+**Repository:** [github.com/gorusys/qrl-handbook](https://github.com/gorusys/qrl-handbook)  
+**GitHub Pages:** [gorusys.github.io/qrl-handbook](https://gorusys.github.io/qrl-handbook/)
 
 ## Content map
 
